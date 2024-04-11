@@ -1,4 +1,5 @@
 # credit: Li Fangyi
+# 编译时间、执行时间、代码体积对比图
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -64,13 +65,13 @@ def drawGraph(
             if (y == dataB).all():
                 i += 0.25
             
-                texts.append(ax.text(i, v+0.01, '%.4f' % v, ha='center', va='center', color=colorB))
+                texts.append(ax.text(i, v+0.02, '%.4f' % v, ha='center', va='center' , rotation=90))
             else:
-                texts.append(ax.text(i, v+0.01, '%.4f' % v, ha='center', va='center', color = colorA))
+                texts.append(ax.text(i, v+0.02, '%.4f' % v, ha='center', va='center' , rotation=90))
 
-    adjust_text(texts, add_objects=bars,
-                    autoalign=False, only_move={'points':'y', 'text':'y', 'objects':'y'},
-                    ha='center', va='bottom')
+    # adjust_text(texts, add_objects=bars,
+    #                 autoalign=False, only_move={'points':'y', 'text':'y', 'objects':'y'},
+    #                 ha='center', va='bottom')
     
     # plt.rc('font', family='Times New Roman', size=12)
     # 紧凑布局

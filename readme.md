@@ -18,6 +18,7 @@ pip install ttf-mscorefonts-installer numpy matplotlib adjusttext
 ```
 
 # 参考
+## 柱状图
 https://www.cnblogs.com/xia-weiwen/p/10336896.html
 
 https://blog.csdn.net/irober/article/details/108279609
@@ -49,3 +50,6 @@ https://zhuanlan.zhihu.com/p/47679593
 https://blog.csdn.net/wenhao_ir/article/details/125226556
 
 https://blog.csdn.net/ixobgenw/article/details/118112435
+
+## 饼状图
+https://geek-docs.com/matplotlib/matplotlib-ask-answer/144_matplotlib_how_to_avoid_overlapping_of_labels_autopct_in_a_pie_chart.html
